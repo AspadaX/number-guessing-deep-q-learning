@@ -1,0 +1,14 @@
+[project]
+name = "number-guessing-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.0",
+    "numpy==1.26",
+    "nvidia-nccl-cu12>=2.24.3",
+    "torch>=2.0.1",
+    "tqdm>=4.67.1",
+]
